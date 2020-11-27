@@ -1,0 +1,39 @@
+h1 {
+  color: orange;
+}
+
+h2 {
+  color: blueviolet;
+}
+
+.my-info {
+  color: green;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#main {
+  display: inline-flex;
+ padding-left: 150px;
+}
+
+#box1 {
+  width: 300;
+  height: 200;
+  background-color: hotpink;
+  margin: 15px;
+}
+
+#box2 {
+  width: 300;
+  height: 200;
+  background-color: turquoise;
+  margin: 15px;
+}
+
+#box3 {
+  width: 300;
+  height: 200;
+  background-color: powderblue;
+  margin: 15px;
+}
