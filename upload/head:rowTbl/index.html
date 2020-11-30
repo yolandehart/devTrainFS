@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Dynamically Add & Remove Table Rows</title>
+
+</head>
+<body>
+  <h1>SHOP CART</h1>
+
+<!-- shop cart form -->
+    <!-- <form onsubmit="addData(event);" required>
+      <div class="input-row">
+        <label for="url">COMPANY NAME</label>
+        <input type="url" name="url" id="url" />
+      </div><br>
+      <div class="input-row">
+        <label for="website">WEBSITE URL</label>
+        <input type="text" name="website" id="website" />
+      </div><br>
+      <div class="input-row">
+        <label for="website">PRODUCT ID</label>
+        <input type="text" name="website" id="website" />
+      </div><br>
+      <div class="input-row">
+        <label for="website">PRODUCT QTY</label>
+        <input type="text" name="website" id="website" />
+      </div>
+    </form><br> -->
+
+<!-- shop cart btns -->
+    <button onclick="createTable(event)">Create your Order</button>
+    <button onclick="reset(event)">Clear Data</button>
+    
+<!-- shop cart table -->    
+    <div id="myTable">
+
+    </div>
+
+<!-- js link -->   
+  <script src="./js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+<!-- form
+  <form onsubmit="myFunction(event); return false;" required>
+    <input type="text" id="pid" placeholder="Enter Product ID" pattern="[A-Z][0-9]{3}" required> 
+    Capital Letter follow by 3 digits <br>
+    <input type="text" id="pdes" placeholder="Enter Style" required>
+    Add description of product<br>
+    <input type="number" id="pqty" min=1 placeholder="Enter Product Qty" required>
+    Add number of products<br>
+    <input type="date" id="pdat" placeholder="Enter Order Date " required>
+    Add date of order<br>
+    <input type="" id="pcity" placeholder="City" required>
+    Add City<br><br>
+
+    <button onclick="addCart(event)">Add to Cart</button>
+    <button onclick="reset(event)">Clear</button>
+  </form><br> -->

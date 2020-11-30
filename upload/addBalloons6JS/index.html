@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Butterfly+Kids&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+  <title>HTML with JS</title>
+
+</head>
+<body>
+  <h1>Make A Balloon</h1>
+
+  <form>
+    <label for="block">block</label>
+    <input type="radio" id="block" name="style" value="block" checked="checked">
+
+    <label for="flex">flex</label>
+    <input type="radio" id="flex" name="style" value="flex">
+  </form>
+
+  <center>
+   <button onclick="getImage(event)">Add a Balloon</button>
+   <button onclick="removeImage(event)">Remove a Balloon</button>
+   <button onclick="removeAll(event)">Clear all Balloons</button><br>
+  <div id="box">
+
+  </div>
+  </center>
+   
+
+
+  <!-- write img into js -->
+  <!-- <img src="./img/img1.jpeg" width="200" />
+  src = attribute name img = attribute value -->
+
+  
+  <script src="./js/script.js"></script>
+</body>
+</html>
