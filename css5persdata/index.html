@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Personal Info</title>
+</head>
+<body>
+  <h1>General Info</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae augue ut mauris efficitur elementum. Nulla ut augue sit amet nisi vestibulum pharetra et vitae nibh. Mauris quis euismod massa. Pellentesque eu odio dictum, iaculis libero sit amet, tristique justo. Nulla dapibus ligula eget dignissim porttitor. Sed eu tortor placerat, elementum erat vitae, vulputate eros. Proin mollis hendrerit justo, laoreet interdum ipsum vulputate et. Phasellus nec egestas arcu, at rutrum erat. Nulla ullamcorper ipsum dui, eu commodo nibh ornare non. Donec non tincidunt diam. Ut est ligula, sodales in facilisis eu, bibendum at enim. Etiam imperdiet, leo nec fermentum placerat, purus libero fringilla arcu, et ultrices augue velit sit amet metus. Vivamus tempus lobortis mi, sed pellentesque augue molestie id. Mauris sit amet hendrerit odio, at feugiat sapien. Ut nec augue mollis, aliquet arcu vel, rhoncus sapien.</p>
+
+
+  <h1>Entry your PI</h1>
+  <!-- fieldset -->
+  <fieldset>
+    <legend><h2>Personal Info</h2></legend>
+  <!-- placeholder / checkbox -->
+    <form>
+      <label for="username">Username</label>
+      <input type="text" placeholder="Enter Full Name"><br><br>
+      <label for="mobile">Mobile</label>
+      <input type="number" placeholder="Enter Mobile"><br><br>
+      <label for="date">DOB</label>
+      <input type="date" placeholder="Enter DOB"><br><br>
+      <label for="password">Password</label>
+      <input type="text" placeholder="Enter Password"><br><br>
+      <label for="remember me">Remember me</label>
+      <input type="checkbox" placeholder="Remember me"><br><br>
+  
+      <!-- radio btn / submit -->
+      <label for="female">Female</label>
+      <input type="radio" name="gender" value="Female">
+      <label for="male">Male</label>
+      <input type="radio" name="gender" value="Male">
+      <button type="submit">Submit</button>
+
+      <br><br>
+
+      <!-- drop down list -->
+      <select>
+        <option value="city">Select City</option>
+        <option value="perth">Perth</option>
+        <option value="melb">Melb</option>
+        <option value="syd">Syd</option>
+      </select>
+
+      <br><br>
+
+      <!-- Multiple Select Box -->
+      <select name="multi" size="3" multiple="multiple">
+        <option value="region">Select Region</option>
+        <option value="region">Subi</option>
+        <option value="region">Cott</option>
+        <option value="region">Freo</option>
+        <option value="region">City.B</option>
+      </select>
+
+      <br><br>
+
+      <!-- google map -->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424146.1107985805!2d150.65108944206239!3d-33.84735508119852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b129838f39a743f%3A0x3017d681632a850!2sSydney%20NSW%2C%20Australia!5e0!3m2!1sen!2sth!4v1603785479167!5m2!1sen!2sth" width="450" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+
+      <!-- Email -->
+      <h2>Send a message</h2>
+      <a href="mailto:quicksocks@gmail.com">Email: Quick Socks</a><br><br>
+      <!-- Textarea Input -->
+      <textarea name="textarea"  cols="30" rows="10">Enter your message</textarea>
+
+
+    </form>
+  </fieldset>
+  
+</body>
+</html>
