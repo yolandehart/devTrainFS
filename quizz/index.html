@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+</head>
+
+<body>
+<fieldset>
+  <legend><h1>Health Quiz</h1></legend>
+  <img src="img/img1.jpg" width="235" height="200"/>
+  <img src="img/img2.jpg" width="235" height="200" />
+  <img src="img/img3.jpg" width="235" height="200" />
+  <img src="img/img4.jpg" width="235" height="200" />
+
+
+  <h3>TAKE YOUR HEALTH QUIZ NOW!!</h3>
+  <h3>Total Points: <span id="score"></span></h3>
+
+  <form onsubmit="myQuizz(event)">
+
+    <div>
+      <!-- 1st question -->
+      <h3>Question 1</h3>
+      <h4>What are some things you can do to help support your brain health?</h4>
+
+      <input type="radio" name="quest1" value="Eatingnutritiousfoods">
+      <label for="quest1">Eating nutritious foods</label><br>
+
+      <input type="radio" name="quest1" value="Regularphysicalactivity">
+      <label for="quest1">Regular physical activity</label><br>
+
+      <input type="radio" name="quest1" value="Doingmentalexerciseslike crossword puzzles">
+      <label for="quest1">Doing mental exercises like crossword puzzles</label><br>
+
+      <input type="radio" name="quest1" value="Alloftheabove">
+      <label for="quest1">All of the above</label>
+    </div><br>
+
+    <!-- 2nd question -->
+    <div>
+      <h3>Question 2</h3>
+      <h4>Eating a healthy diet can help reduce the risk of developing health problems, such as?</h4>
+      
+      <input type="radio" name="quest2" value="150minutesofmoderateactivityperweek" >
+      <label for="quest2">150 minutes of moderate activity per week</label><br>
+
+      <input type="radio" name="quest2" value="120minutesofmoderateactivityperweek">
+      <label for="quest2">120 minutes of moderate activity per week</label><br>
+
+      <input type="radio" name="quest2" value="90minutesofmoderateactivityperweek">
+      <label for="quest2">90 minutes of moderate activity per week</label><br>
+
+      <input type="radio" name="quest2" value="60minutesofmoderateactivityperweek">
+      <label for="quest2">60 minutes of moderate activity per week</label><br>
+    </div>
+
+    <!-- 3rd question -->
+    <div>
+      <h3>Question 3</h3>
+      <h4>True or False - Walking at least 15 minutes a day can help boost my mood?</h4>
+      
+      <input id="quest3" type="radio" name="quest3" value="Someformsofcancer" >
+      <label for="quest3">Some forms of cancer</label><br>
+
+      <input id="quest3" type="radio" name="quest3" value="Highbloodpressure">
+      <label for="quest3">High blood pressure</label><br>
+
+      <input id="quest3" type="radio" name="quest3" value="Heart&respiratory disease">
+      <label for="quest3">Heart & respiratory disease</label><br>
+
+      <input id="quest3" type="radio" name="quest3" value="Alloftheabove">
+      <label for="quest3">All of the above</label><br>
+    </div>
+
+    4th question
+    <!-- <div> -->
+      <h3>Question 4</h3>
+      <h4>You can help to prevent falls by doing what?</h4>
+      
+      <input id="quest4" type="radio" name="quest4" value="True">
+      <label for="quest4">True</label><br>
+
+      <input id="quest4" type="radio" name="quest4" value="False">
+      <label for="quest4">False</label>
+    </div><br><br> 
+
+    <button type="submit">SUBMIT</button><br>
+</form>
+</fieldset>
+<script src="./js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
+    
