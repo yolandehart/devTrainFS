@@ -1,0 +1,56 @@
+
+/* font-family: 'Butterfly Kids', cursive; */
+
+body {
+	background-color: rgb(240, 248, 255);
+}
+
+h1 {
+	font-family: 'Butterfly Kids', cursive;
+	font-size: 75px;
+	text-align: center;
+}
+
+form {
+	font-family: 'Butterfly Kids', cursive;
+	font-size: 25px;
+	color: black;
+	display: flex;
+	justify-content: center;
+	margin: 4px 6px;
+}
+
+input[type="radio"] {
+    cursor: pointer;
+    appearance: radio;
+    box-sizing: border-box;
+    margin: 1px 1px 1px 1px;
+  }
+
+#block, #flex {
+	cursor: pointer;
+	appearance: radio;
+	box-sizing: border-box;
+}
+
+
+#buttons {
+	display: flex;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+button {
+	font-family: 'Butterfly Kids', cursive;
+	font-size: 25px;
+	background-color: rgb(171, 178, 185);
+	font-weight: 700;
+	font-size: 25px;
+	width: 230px;
+	height: 40px;
+	border: none;
+	border-radius: 10px 10px 0 0;
+}
+
+
